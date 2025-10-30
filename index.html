@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV/Resume selector - Choose your preferred language and format">
+    <meta name="theme-color" content="#007bff">
+    <title>Curriculum vitae</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 1rem;
+            background-color: #f0f2f5;
+        }
+
+        .container {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            color: #333;
+            margin: 0 0 1.5rem 0;
+            text-align: center;
+        }
+
+        .button-row {
+            margin-bottom: 2rem;
+        }
+
+        .button-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .row-label {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .button-group {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.75rem;
+        }
+
+        /* Single column layout for mobile devices */
+        @media (max-width: 600px) {
+            .button-group {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        button {
+            width: 100%;
+            padding: 1rem;
+            font-size: 1rem;
+            border: 2px solid #e0e0e0;
+            background-color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-weight: 500;
+            min-height: 44px;
+            touch-action: manipulation;
+        }
+
+        button:hover {
+            background-color: #f5f5f5;
+            border-color: #007bff;
+            transform: translateY(-2px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button.selected {
+            background-color: #007bff;
+            color: white;
+            border-color: #0056b3;
+        }
+
+        button.selected:hover {
+            background-color: #0056b3;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        button:disabled:hover {
+            background-color: white;
+            border-color: #e0e0e0;
+            box-shadow: none;
+        }
+
+        /* Focus styles for better keyboard accessibility */
+        button:focus {
+            outline: 2px solid #007bff;
+            outline-offset: 2px;
+        }
+
+        button:focus:not(:focus-visible) {
+            outline: none;
+        }
+
+        button:focus-visible {
+            outline: 2px solid #007bff;
+            outline-offset: 2px;
+        }
+
+        /* Media queries for smaller devices */
+        @media (max-width: 480px) {
+            body {
+                padding: 0.75rem;
+            }
+
+            .container {
+                padding: 1.25rem;
+                border-radius: 8px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+                margin-bottom: 1.25rem;
+            }
+
+            .row-label {
+                font-size: 0.95rem;
+                margin-bottom: 0.75rem;
+            }
+
+            button {
+                padding: 0.875rem;
+                font-size: 0.95rem;
+                min-height: 44px;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 1.35rem;
+                margin-bottom: 1rem;
+            }
+
+            button {
+                padding: 0.75rem;
+                font-size: 0.9rem;
+            }
+        }
+
+        /* High DPI devices */
+        @media (-webkit-min-device-pixel-ratio: 2) {
+            button {
+                border-width: 1px;
+            }
+        }
+
+        /* Reduce animations for users who prefer reduced motion */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        /* Improve contrast for dark mode */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #1a1a1a;
+            }
+
+            .container {
+                background-color: #2d2d2d;
+                color: #e0e0e0;
+            }
+
+            h1 {
+                color: #e0e0e0;
+            }
+
+            .row-label {
+                color: #e0e0e0;
+            }
+
+            button {
+                background-color: #3a3a3a;
+                border-color: #555;
+                color: #e0e0e0;
+            }
+
+            button:hover {
+                background-color: #4a4a4a;
+                border-color: #007bff;
+            }
+
+            button.selected {
+                background-color: #007bff;
+                color: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="container">
+            <h2>Curriculum vitae</h2>
+            <div role="form" aria-label="Resume selector">
+                <div class="button-row" v-for="(row, index) in rows" :key="row.id">
+                    <label class="row-label" :for="`${row.id}-group`">{{ row.label }}:</label>
+                    <div class="button-group" :id="`${row.id}-group`" role="group" :aria-label="`${row.label} options`">
+                        <button 
+                            v-for="option in row.options" 
+                            :key="option.value"
+                            :class="{ selected: option.value === row.selected }"
+                            :disabled="index === 1 && !rows[0].selected"
+                            :aria-pressed="option.value === row.selected"
+                            :aria-label="`${row.label}: ${option.label}`"
+                            @click="selectOption(index, option.value)"
+                        >
+                            {{ option.label }}
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const { createApp, ref, watch } = Vue;
+
+        createApp({
+            setup() {
+                const rows = ref([
+                    {
+                        id: 'language',
+                        label: 'Language',
+                        selected: null,
+                        options: [
+                            { label: 'English',    value: 'en' },
+                            { label: 'Svenska',    value: 'se' },
+                            { label: 'Slovenčina', value: 'sk' }
+                        ]
+                    },
+                    {
+                        id: 'type',
+                        label: 'Format',
+                        selected: null,
+                        options: [
+                            { label: 'PDF',  value: 'pdf'  },
+                            { label: 'HTML', value: 'html' },
+                            { label: 'TXT',  value: 'txt'  }
+                        ]
+                    }
+                ]);
+              
+                const selectOption = (rowIndex, value) => {
+                    if (rowIndex === 0) {
+                        rows.value[1].selected = null;
+                    }
+                    rows.value[rowIndex].selected = value;
+                };
+                watch(rows, (newRows) => {
+                      if (newRows[1].selected && newRows[1].selected) {
+                          const lang = newRows[0].selected;
+                          const type = newRows[1].selected;
+                          if (lang !== 'sk') {
+                            window.location.href = `public/${lang}.${type}`;
+                          } else {
+                            console.log('TODO: add support for Slovak.');
+                          }
+                      }
+                  }, { deep: true });
+
+                return {
+                    rows,
+                    selectOption
+                };
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
