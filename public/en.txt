@@ -8,81 +8,58 @@
 
 [image]
 
-------------------------------------------------------------------------
-
-I am a passionate software engineer & mathematics enthusiast based in Sweden’s Gothenburg, currently studying Software Engineering, B.Sc. at the joint department of Computer Science and Engineering, Chalmers and Gothenburg University. My current interests include functional programming, cloud computing, and abstract algebra & topology, hence bridging the gap between theoretical Computer Science, Software Engineering, and Mathematics. I also share passion for teaching and have been privately tutoring students since 2021.
+I am a passionate Computer Scientist & (functional) programmer born in Bratislava (Slovakia), presently based in Sweden’s Gothenburg. I’m also interested in software verification, linguistics, design, and teaching.
 
 Education
 
-B.Sc. in Software Engineering 2022-Present
-Chalmers and Gothenburg University Gothenburg, Sweden
+Master of Computer Science, Chalmers University of TechnologyExpected 2027
 
-Free-standing Courses 2022-2024
-Lund, Linnaeus, and Gothenburg Universities Sweden
-
-High School Diploma 2017-2022
-Private English Grammar School Bratislava, Slovakia
+Bachelor of Software Engineering, Chalmers and Gothenburg University2022 – 2025
 
 Work Experience
 
-Developer 2024-Present
+Software Engineering Intern Mar 2025 – Sep 2025
+Tesla, Inc. Amsterdam, Netherlands
+
+Helped to develop full-stack diagnostic interfaces for Tesla car touchscreens for vehicle maintenance.[1] | Developed software instruments that facilitate Service automation for (among others) Robotaxis by connecting service & development teams.
+
+Developer Oct 2024 – Mar 2024
 Algeno AB Gothenburg, Sweden
 
-Focusing on developing AI-driven tools to optimize energy use and temperature control in homes and workplaces. | Technologies used: Next.js, TypeScript, Python, SQL, Docker
+Focused on developing AI-driven tools to optimize energy use and temperature control in homes and workplaces.
 
-Research Assistant 2024
-Chalmers University of Technology Gothenburg, Sweden
-
-Contributed to a research project investigating teaching approaches and pedagogical methodologies for computer programming education. | Focused on analyzing the impact of AI-aided tools and platforms supporting social annotations (e.g., www.perusall.com) on learning experiences in higher education. | Technologies used: Python (Numpy & Pandas), R, LaTeX, Haskell
-
-IT Consultant & Developer 2023
+IT Consultant & Developer Dec 2022 – Nov 2023
 Chalmers Teknologkonsulter AB Gothenburg, Sweden
 
-Consultancy in IT sector, sales, participation in various projects with current industry partners. | Project Manager responsible for the development of a mobile-based application (React Native) for the Regional Cancer Center (Sweden) aimed to help detect melanoma.
+Led a project for a mobile-first application for the Regional Cancer Center (Sweden) aimed to help detect melanoma among patients.
 
-Teaching Assistant 2023-Present
-Chalmers and Gothenburg University Gothenburg, Sweden
-
-My role revolves around grading coursework, offering individualized guidance to students, assisting with administrative tasks, and contributing to curriculum discussions. | Courses I’ve been involved in: Object-Oriented Programming, Embedded Systems and C Programming, Systems Development, Requirements Engineering.
-
-Fullstack Developer 2021-2023
+Fullstack Web Developer May 2021 – Jun 2023
 Klas, s.r.o. Bratislava, Slovakia
 
-Participated in the website development (and the platform’s UI/UX design) featuring contemporary visuals: www.klasfarm.sk. | Technologies used: Next.js, JavaScript, Tailwind CSS, Shell & Linux administration, Python, Go.
+Designed and developed the company’s website & trivia platform for the public domain with contemporary visuals.
 
-Education Monitor & Board Member 2023-Present
-Göta Student Union Gothenburg, Sweden
+Language Proficiency & Skills
 
-Engaged in various aspects of education of the Faculty of Science and Technology (previously, IT faculty) and represented students in decision-making bodies. | Chairman (2023-2024), Head of Finance (2024-2025) of SKIP Student Association, under Göta Student Union. | Spearheaded the planning of events including Hackathons, seminars, and guest lectures with industry partners and alumni.
+Languages: Slovak, English (Native); Czech, Swedish (C1); German, Dutch (B1-B2)
 
-Technical Skills
+Programming Languages: Python, Haskell, TypeScript, Rust, C/C++, Java, Assembly, Bash/Shell, R, MATLAB
 
-Programming Languages: Python, Haskell, Java, TypeScript, Go, C/C++, Assembly, Bash/Shell, R, MATLAB | Tools: Pandas, NumPy & SciPy, Jupyter Notebook, Matplotlib, QuickCheck, Vue.js, Next.js, React (Native), Docker, MongoDB, SQL, CLI/Unix, LaTeX, Git (GitHub/GitLab), Arduino | Other: Open-source software, academic writing, Adobe After Effects & Photoshop, Figma, Affinity Photo, video editing, graphic and motion design
+Tools: Scikit-learn, PyTorch, Next.js, React (Native), Docker, Kubernetes, (p)SQL, Linux/Unix/BSD, Git (GitHub/GitLab etc.).
 
-Language Proficiency
+Other: DevOps, Robotics, Project Management, Graphic & Product Design, Teaching, Academic Writing, Languages and Translations.
 
-  Language        Level
-  --------------- --------
-  Slovak, Czech   Native
-  English         Native
-  Swedish         C1
-  German          B2
-  Spanish         B1
+Awards & Certificates
+
+Winner of ActInSpace Hackathon (Sweden), 2022 | Swedish as Second Language, Folkuniversitet, 2024
+
+Harvard’s CS50 Introduction to Computer Science | The Duke of Edinburgh’s Award; TOEFL iBT
 
 Projects
 
 AppointDent 2024
 
-AppointDent is a website-based application using a microservices architecture aimed to assist Swedish residents manage dentist appointments and provides dentists with tools to organize their schedules efficiently.
+A full-stack website application using a microservices architecture for residents of an area to manage dentist appointments and provides dentists with tools to organize their schedules efficiently.
 
-MiniCarSteer 2024
+PastExams 2023 – 2025
 
-A data-driven algorithm to determine the steering angle of a miniature self-driving vehicle using sensor data, implemented in a Docker environment.
-
-CompSci 2023
-
-Awards, Licenses & Certificates
-
-2
-
-Winner of ActInSpace Hackathon (national round), 2022 | TOEFL iBT (Academic English), 2022 | Swedish as Second Language, Folkuniversitet, 2024 | CS50 Introduction to Computer Science, Harvard University, 2021 | Pre-University Calculus, Technische Universiteit Delft, 2022 | The Duke of Edinburgh’s Award (Bronze), Slovakia, 2020
+[1] More about the project: https://service.tesla.com/en-US/service-mode.

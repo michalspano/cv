@@ -5,7 +5,9 @@
 .ec-lmss-10x-x-109{ font-family: sans-serif;}
 .ec-lmss-10x-x-109{ font-family: sans-serif;}
 .ec-lmss-10x-x-109{ font-family: sans-serif;}
+.ec-lmss-10x-x-109{ font-family: sans-serif;}
 .ec-lmssbx-10x-x-207{font-size:188%; font-family: sans-serif; font-weight: bold;}
+.ec-lmssbx-10x-x-207{ font-family: sans-serif; font-weight: bold;}
 .ec-lmssbx-10x-x-207{ font-family: sans-serif; font-weight: bold;}
 .ec-lmssbx-10x-x-207{ font-family: sans-serif; font-weight: bold;}
 .ec-lmssbx-10x-x-207{ font-family: sans-serif; font-weight: bold;}
@@ -16,16 +18,26 @@
 .ec-lmssbx-10x-x-109{ font-family: sans-serif; font-weight: bold;}
 .ec-lmssbx-10x-x-109{ font-family: sans-serif; font-weight: bold;}
 .ec-lmssbx-10x-x-109{ font-family: sans-serif; font-weight: bold;}
+.ec-lmssbx-10x-x-109{ font-family: sans-serif; font-weight: bold;}
 .ec-lmsso-10x-x-109{ font-family: sans-serif; font-style: oblique;}
 .ec-lmsso-10x-x-109{ font-family: sans-serif; font-style: oblique;}
 .ec-lmsso-10x-x-109{ font-family: sans-serif; font-style: oblique;}
 .ec-lmsso-10x-x-109{ font-family: sans-serif; font-style: oblique;}
 .ec-lmsso-10x-x-109{ font-family: sans-serif; font-style: oblique;}
-.ec-lmtt-10x-x-109{ font-family: monospace,monospace;}
-.ec-lmtt-10x-x-109{ font-family: monospace,monospace;}
-.ec-lmtt-10x-x-109{ font-family: monospace,monospace;}
-.ec-lmtt-10x-x-109{ font-family: monospace,monospace;}
-.ec-lmtt-10x-x-109{ font-family: monospace,monospace;}
+.ec-lmsso-10x-x-109{ font-family: sans-serif; font-style: oblique;}
+.ts1-lmss10-{font-size:90%;}
+.ec-lmss-9{font-size:81%; font-family: sans-serif;}
+.ec-lmss-9{ font-family: sans-serif;}
+.ec-lmss-9{ font-family: sans-serif;}
+.ec-lmss-9{ font-family: sans-serif;}
+.ec-lmss-9{ font-family: sans-serif;}
+.ec-lmss-9{ font-family: sans-serif;}
+.ec-lmtt-9{font-size:81%; font-family: monospace,monospace;}
+.ec-lmtt-9{ font-family: monospace,monospace;}
+.ec-lmtt-9{ font-family: monospace,monospace;}
+.ec-lmtt-9{ font-family: monospace,monospace;}
+.ec-lmtt-9{ font-family: monospace,monospace;}
+.ec-lmtt-9{ font-family: monospace,monospace;}
 p{margin-top:0;margin-bottom:0}
 p.indent{text-indent:0;}
 p + p{margin-top:1em;}
@@ -49,6 +61,7 @@ h1,h2,h3,h4,h5 { line-height:1.2; }
 .subsectionHead, .likesubsectionHead { font-size: 1.3195em; }
 .subsubsectionHead, .likesubsubsectionHead { font-size: 1.1487em; }
  @media (prefers-color-scheme: dark) { img[src^="main"]{filter: invert(1); } } 
+ body { background-color: Canvas; color: CanvasText; color-scheme: light dark; } 
 li p.indent { text-indent: 0em }
 li p:first-child{ margin-top:0em; }
 li p:last-child, li div:last-child { margin-bottom:0.5em; }
@@ -106,7 +119,6 @@ table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
 .hline hr, .cline hr{border:none;border-top:1px solid black;}
 .hline {border-top: 1px solid black;}
 .hline + .vspace:last-child{display:none;}
-.hline:first-child{border-bottom:1px solid black;border-top:none;}
 .tabbing-right {text-align:right;}
 div.float, div.figure {margin-left: auto; margin-right: auto;}
 div.float img {text-align:center;}
@@ -132,7 +144,7 @@ span.bar-css {text-decoration:overline;}
 img.cdots{vertical-align:middle;}
 .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
 .index-item, .index-subitem, .index-subsubitem {display:block}
-div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center; margin-top: 0.5rem;}
 div.caption span.id{font-weight: bold; white-space: nowrap; }
 h1.partHead{text-align: center}
 p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
@@ -162,11 +174,5 @@ p + figcaption, img + figcaption{margin-top: 1em;}
 .abstract{margin:1em;}
 dl.enumerate-enumitem{display:grid; grid-template-columns: 3ch 1fr; align-items: top; row-gap:1ch;}
 .rotatebox{display: inline-block;}
-#TBL-1-1{border-left: 1px solid black;}
-#TBL-1-1{border-right:1px solid black;}
-#TBL-1-1{border-right:1px solid black;}
-#TBL-1-2{border-right:1px solid black;}
-.columns-2 :first-child { margin-top: 0em; }
-.columns-2{-moz-column-count:2; -webkit-column-count:2; column-count:2; -moz-column-gap: 10.0pt; -webkit-column-gap: 10.0pt; column-gap: 10.0pt; -moz-column-rule-width: 0.0pt; -webkit-column-rule-width: 0.0pt; column-rule-rule-width: 0.0pt; -moz-column-rule-color: #555; -webkit-column-rule-color: #555; column-rule-color: #555; -moz-column-rule-style: outset; -webkit-column-rule-style: outset; column-rule-style: outset; -moz-column-fill: balance; -webkit-column-fill: balance; column-fill: balance; }
 /* end css.sty */
 
