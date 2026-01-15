@@ -8,7 +8,7 @@
 
 [image]
 
-I am a passionate Computer Scientist & (functional) programmer born in Bratislava (Slovakia), presently based in Sweden’s Gothenburg. I’m also interested in software verification, linguistics, design, and teaching.
+I’m a graduate student with a strong background and passion in computer programming, an interest in science & research, and content creation; born in Bratislava (Slovakia), now based in Gothenburg (Sweden). I’m particularly interested in (functional) programming, software verification, linguistics, design, and teaching. I’m also an active contributor (5k+ contributions) of various projects on GitHub. I’ve been a private tutor in science for several years and have delivered 250+ lectures.
 
 Education
 
@@ -21,32 +21,31 @@ Work Experience
 Software Engineering Intern Mar 2025 – Sep 2025
 Tesla, Inc. Amsterdam, Netherlands
 
-Helped to develop full-stack diagnostic interfaces for Tesla car touchscreens for vehicle maintenance.[1] | Developed software instruments that facilitate Service automation for (among others) Robotaxis by connecting service & development teams.
+Helped to develop and design diagnostic interfaces for Tesla car touchscreens for vehicle maintenance and repair.[1] | Developed software instruments that facilitate service automation for (among others) Robotaxis by connecting service & development teams. | Technologies used: TypeScript + React, Rust, Haskell, Shell + Linux
+
+Research & Teaching Assistant Sep 2023 – Mar 2025
+Chalmers University of Technology Gothenburg, Sweden
+
+Evaluated the impact of (i) AI-assisted tools, (ii) social annotations for programming in higher education | Assisted with administrative tasks and coursework assignments and supervised students in courses: Object-Oriented Programming, C & Embedded and Realtime Systems, and Requirements Engineering. | Technologies used: C/C++, Java, R, MATLAB
 
 Developer Oct 2024 – Mar 2024
 Algeno AB Gothenburg, Sweden
 
-Focused on developing AI-driven tools to optimize energy use and temperature control in homes and workplaces.
+Focused on developing AI-driven tools to optimize energy use and temperature control in homes and workplaces. | Technologies used: TypeScript + Next.js, Python, pSQL, Docker
 
 IT Consultant & Developer Dec 2022 – Nov 2023
 Chalmers Teknologkonsulter AB Gothenburg, Sweden
 
-Led a project for a mobile-first application for the Regional Cancer Center (Sweden) aimed to help detect melanoma among patients.
+Led a project for a mobile-first application for the Regional Cancer Center (Sweden) aimed to help detect melanoma among patients. | Technologies used: TypeScript + React Native, Scala
 
 Fullstack Web Developer May 2021 – Jun 2023
 Klas, s.r.o. Bratislava, Slovakia
 
-Designed and developed the company’s website & trivia platform for the public domain with contemporary visuals.
+Designed and developed the company’s website & trivia platform for the public domain with contemporary visuals. | Technologies used: JavaScript + Next.js, Python, mySQL
 
-Language Proficiency & Skills
+Skillset
 
-Languages: Slovak, English (Native); Czech, Swedish (C1); German, Dutch (B1-B2)
-
-Programming Languages: Python, Haskell, TypeScript, Rust, C/C++, Java, Assembly, Bash/Shell, R, MATLAB
-
-Tools: Scikit-learn, PyTorch, Next.js, React (Native), Docker, Kubernetes, (p)SQL, Linux/Unix/BSD, Git (GitHub/GitLab etc.).
-
-Other: DevOps, Robotics, Project Management, Graphic & Product Design, Teaching, Academic Writing, Languages and Translations.
+SCRUM, Agile Workflow, Project Management, DevOps, Robotics, Graphic & Product Design, Teaching, Academic Writing, Languages and Translations.
 
 Awards & Certificates
 
@@ -54,12 +53,22 @@ Winner of ActInSpace Hackathon (Sweden), 2022 | Swedish as Second Language, Folk
 
 Harvard’s CS50 Introduction to Computer Science | The Duke of Edinburgh’s Award; TOEFL iBT
 
+Languages: Slovak, English (Native); Czech, Swedish (C1); German, Dutch (B1-B2)
+
 Projects
 
-AppointDent 2024
+michalspano.com/regexp 2025
 
-A full-stack website application using a microservices architecture for residents of an area to manage dentist appointments and provides dentists with tools to organize their schedules efficiently.
+An interactive regex parser and an interpreter for a subset of POSIX regex written in Haskell. | The project features a vizualizer of the underlying data structures.
 
-PastExams 2023 – 2025
+michalspano.com/AppointDent 2024
+
+A microservices-based full-stack webapp to manage dentist appointments. | It provides tools for dentists to organize their schedule and communicate with clients.
+
+skipgu.org/past-exams 2023 – 2026
+
+michalspano.com/SEManager 2023
+
+An interactive study planner for Software Engineering students at Gothenburg University. | It features a comprehensive view with all course information and pre-requisites among courses (represented as a graph-like data structure).
 
 [1] More about the project: https://service.tesla.com/en-US/service-mode.
