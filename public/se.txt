@@ -1,6 +1,6 @@
  spano@michalspano.com
  
- Göteborg, Sweden
+ Göteborg, Sverige
 
  github.com/michalspano
  linkedin.com/in/michalspano
@@ -8,84 +8,69 @@
 
 [image]
 
-------------------------------------------------------------------------
-
-Jag är passionerad mjukvaruingenjör och matematikentusiast baserad i Göteborg. För nuvarande läser jag Software Engineering, B.Sc. vid den gemensamma institutionen för Data- och Informationsteknik vid Chalmers och Göteborgs universitet. Mina intressen inkluderar funktionell programmering, cloud computing, abstrakt algebra och topologi. Jag har lång erfarenhet av att arbeta som utvecklare i varierande projekt inom IT-branschen. Jag har också en passion för att undervisa och har privat undervisat elever sedan 2021.
+Chalmerist med en stark bakgrund och passion för datorprogrammering och intresse för vetenskap och forskning. Jag är född i Bratislava (Slovakien) och bor nu i Göteborg (Sverige). Jag är särskilt intresserad av (funktionell) programmering, programvaruverifiering, lingvistik, design och undervisning. Jag är också en aktiv bidragsgivare (5,000+ bidrag) till olika projekt på GitHub. Jag har varit privatlärare i teknik i flera år och har hållit över 250+ föreläsningar.
 
 Utbilding
 
-Kandidatexamen i Software Engineering (Mjukvaruteknik) 2022-nu
-Chalmers och Göteborgs Universitet Göteborg, Sverige
+Masterexamen i Datavetenskap, Chalmers Tekniska Högskola2025 – 2027
 
-Fristående kurser 2022-2024
-Lund, Linnaeus, and Göteborgs Universitet Sverige
+Kandidatexamen i Software Engineering (Mjukvaruteknik), Göteborgs Universitet2022 – 2025
 
-Svenska som andra språk 2023-2024
-Folkuniversitet & Vuxenutbildning Göteborg, Sverige
-
-Gymnasieskola 2017-2022
-Internationella Engelska Skolan i Bratislava Bratislava, Slovakien
+Svenska som andra språk, Folkuniversitet, Vuxenutbildning2023 – 2024
 
 Arbetslivserfarenhet
 
-Utvecklare 2024-nu
+Praktikant inom mjukvaruutveckling Mar 2025 – Sep 2025
+Tesla, Inc. Amsterdam, Nederländerna
+
+Bidrog till utveckling och design av diagnostiska gränssnitt för Tesla-bilars touchskärmar för underhåll och reparation av fordon.[1] | Utvecklade mjukvaruinstrument som underlättar automatisering av tjänster för bland annat Robotaxis genom att koppla samman service- och utvecklingsteam. | Använd teknik: TypeScript + React, Rust, Haskell, Shell + Linux
+
+Utvecklare Okt 2024 – Mar 2024
 Algeno AB Göteborg, Sverige
 
-Utvecklar AI-drivna verktyg för att optimera energianvändning och temperaturreglering i hem och på arbetsplatser. | Teknikstack: Next.js, TypeScript, Python, SQL, Docker
+Utvecklade AI-drivna verktyg för att optimera energianvändning och temperaturreglering i hem och på arbetsplatser. | Använd teknik: TypeScript + Next.js, Python, pSQL, Docker
 
-Forskningsassistent 2024
+Forsknings- och undervisningsassistent Sep 2023 – Mar 2025
 Chalmers Tekniska Högskola Göteborg, Sverige
 
-Bidrog till ett forskningsprojekt som undersökte undervisningsmetoder och pedagogiska metoder för utbildning i datorprogrammering. | Fokuserade på att analysera effekterna av AI-stödda verktyg och plattformar som stöder sociala anteckningar (t.ex. www.perusall.com) på inlärningsupplevelser av datorprogrammering i högre utbildning. | Teknikstack: Python (Numpy & Pandas), R, LaTeX, Haskell
+Utvärderade effekten av (i) AI-assisterade verktyg, (ii) sociala anteckningar för programmering inom högre utbildning. | Hjälpte med administrativa uppgifter och kursuppgifter och handledde studenter i kurserna: Objektorienterad programmering, C & inbyggda system, samt kravhantering och användargränssnitt. | Använd teknik: C/C++, Java, R, MATLAB
 
 IT Konsult & Utvecklare 2023
 Chalmers Teknologkonsulter AB Göteborg, Sverige
 
-Konsulting inom IT-sektorn, försäljning, deltagande i olika projekt med nuvarande branschpartners. | Projektledare med ansvar för utveckling av en mobilbaserad applikation (React Native) för Regionala cancercentrum i Sverige med syfte att hjälpa till att upptäcka melanom.
-
-Undervisningsassistent 2023-nu
-Chalmers och Göteborgs Universitet Göteborg, Sverige
-
-Min roll handlar om att erbjuda individuell vägledning till studenter, hjälpa till med administrativa uppgifter och bidra till diskussioner om läroplanen. | Kurser som jag har varit engagerad i: Objektorienterad programmering, inbyggda system och C programmering, systemutveckling och kravhantering.
+Konsulting inom IT-sektorn, försäljning; deltagande i olika projekt med branschpartners. | Projektledare med ansvar för utveckling av en mobilbaserad applikation för Regionala cancercentrum i Sverige med syftet att upptäcka melanom hos patienter. | Använd teknik: TypeScript + React Native, Scala
 
 Fullstack Utvecklare 2021-2023
 Klas, s.r.o. Bratislava, Slovakien
 
-Deltog i utvecklingen av webbplatsen (och plattformens UI/UX-design) med tidsenliga visuella element: www.klasfarm.sk. Teknikstack: Next.js, JavaScript, Tailwind CSS, Shell & Linux administration, Python, Go.
-
-Utbildningsansvarig & Styrelseledamot 2023-nu
-Göta Studentkår Göteborg, Sverige
-
-Engagerad i olika aspekter av utbildningen vid fakulteten för naturvetenskap och teknik (tidigare IT-fakulteten) och representerade studenterna i beslutsfattande organ. | Ordförande (2023-2024), Ekonomichef (2024-2025) i SKIP kårförening, under Göta Studentkår. | Ledde planeringen av evenemang som Hackathons, seminarier och gästföreläsningar med branschpartners och alumner.
+Designade och utvecklade företagets webbplats och en triviaplattform för deras kunder. | Använd teknik: JavaScript + Next.js, Python, mySQL
 
 Färdigheter och kompetens
 
-Programmeringspråk: Python, Haskell, Java, TypeScript, Go, C/C++, Assembly, Bash/Shell, R, MATLAB | Programmeringsverktyg: Pandas, NumPy & SciPy, Jupyter Notebook, Matplotlib, QuickCheck, Vue.js, Next.js, React (Native), Docker, MongoDB, SQL, CLI/Unix, LaTeX, Git (GitHub/GitLab), Arduino | Övrigt: Open-source mjukvara, akademiskt skrivande, Adobe After Effects & Photoshop, Figma, Affinity Photo, videoredigering, grafisk design & rörelsegrafik
+SCRUM och Agile, projektledning, operativsystem, DevOps, robotik, grafik- och produktdesign, undervisning, språk och översättningar
 
-Språk
+Priser och certifikat
 
-  Språk                  Nivå
-  ---------------------- --------
-  Slovakiska, Tjekiska   Native
-  Engleska               Native
-  Svenska                C1
-  Tyska                  B2
-  Spanska                B1
+Vinnande lag i ActInSpace Hackathon, 2022 | TOEFL iBT (akademiska engelska), 2022
+
+CS50 Introduction to Computer Science, Harvard University, 2021 | The Duke of Edinburgh’s Award, Slovakien, 2020
+
+Språk: slovakiska, engelska (native); tjeckiska, svenska (C1); tyska, nederländska (B1-B2)
 
 Projekt
 
-AppointDent 2024
+michalspano.com/regexp 2025
 
-AppointDent är en webbaserad applikation med en microservices-arkitektur som syftar till att hjälpa svenska invånare att hantera tandläkartider och ger tandläkare verktyg för att organisera sina scheman på ett effektivt sätt.
+En interaktiv regex-parser och en interprer för POSIX regex skriven i Haskell. | Projektet innehåller en visuellt framställning av de underliggande datastrukturerna.
 
-MiniCarSteer 2024
+michalspano.com/AppointDent 2024
 
-En datadriven algoritm för att bestämma styrvinkeln för ett självkörande miniatyrfordon med hjälp av sensordata, implementerad i en Docker-miljö.
+En fullstack-webbapp baserad på mikrotjänster för hantering av tandläkartider i Sverige. | Den tillhandahåller verktyg för tandläkare att organisera sina scheman och kommunicera med kunder.
 
-CompSci 2023
+skipgu.org/past-exams 2023 – 2026
 
-Priser, licenser & certifikat
+michalspano.com/SEManager 2023
 
-2
+En interaktiv studieplanerare för studenter i Software Engineering vid Göteborgs universitet. | Den har en omfattande översikt med all kursinformation och förkunskapskrav mellan kurser.
 
-Vinnande laget av ActInSpace Hackathon (nationell omgång), 2022 | Svenska som andra språk, Folkuniversitet, 2024 | TOEFL iBT (akademiska engelska), 2022 | CS50 Introduction to Computer Science, Harvard University, 2021 | Envariabelanalysis (förberedelsekurs), Technische Universiteit Delft, 2022 | The Duke of Edinburgh’s Award (Bronze), Slovakien, 2020
+[1] Mer om projektet: https://service.tesla.com/en-US/service-mode.
