@@ -1,49 +1,69 @@
- spano@michalspano.com
- 
- Göteborg, Sverige
+Michal Spano
 
- github.com/michalspano
- linkedin.com/in/michalspano
- www.michalspano.com
-
-[image]
+- spano@michalspano.com
+- +46 70-252 75 77
+- Göteborg, Sverige
+- github.com/michalspano
+- linkedin.com/in/michalspano
+- www.michalspano.com
 
 Chalmerist med en stark bakgrund och passion för datorprogrammering och intresse för vetenskap och forskning. Jag är född i Bratislava (Slovakien) och bor nu i Göteborg (Sverige). Jag är särskilt intresserad av (funktionell) programmering, programvaruverifiering, lingvistik, design och undervisning. Jag är också en aktiv bidragsgivare (5,000+ bidrag) till olika projekt på GitHub. Jag har varit privatlärare i teknik i flera år och har hållit över 250+ föreläsningar.
 
 Utbilding
 
-Masterexamen i Datavetenskap, Chalmers Tekniska Högskola2025 – 2027
+Masterexamen i Datavetenskap, Chalmers Tekniska Högskola 2025 – 2027
 
-Kandidatexamen i Software Engineering (Mjukvaruteknik), Göteborgs Universitet2022 – 2025
+- Specialisering: funktionell programmering, kompilatorkonstruktion och typteori.
 
-Svenska som andra språk, Folkuniversitet, Vuxenutbildning2023 – 2024
+Kandidatexamen i Software Engineering (Mjukvaruteknik), Göteborgs Universitet 2022 – 2025
+
+- Kandidatuppsats: ”Evaluating Trade-offs of Quantized LLMs for Requirements and Test Alignment”[1]
+- Arrangerade hackathons, workshops och representerade studenter i beslutsfattande organ genom studentkåren.
+- Fristående kurser inom matematik (60 HP)
+
+Svenska som andra språk, Folkuniversitet, Vuxenutbildning 2023 – 2024
+
+- SFI, grundläggande svenska (grundskolenivå) samt nationellt prov i svenska motsvarande Svenska 3 (gymnasienivå).
 
 Arbetslivserfarenhet
 
 Praktikant inom mjukvaruutveckling Mar 2025 – Sep 2025
+
 Tesla, Inc. Amsterdam, Nederländerna
 
-Bidrog till utveckling och design av diagnostiska gränssnitt för Tesla-bilars touchskärmar för underhåll och reparation av fordon.[1] | Utvecklade mjukvaruinstrument som underlättar automatisering av tjänster för bland annat Robotaxis genom att koppla samman service- och utvecklingsteam. | Använd teknik: TypeScript + React, Rust, Haskell, Shell + Linux
+- Bidrog till utveckling och design av diagnostiska gränssnitt för Tesla-bilars touchskärmar för underhåll och reparation av fordon.[2]
+- Utvecklade mjukvaruinstrument som underlättar automatisering av tjänster för bland annat Robotaxis genom att koppla samman service- och utvecklingsteam.
+- Använd teknik: TypeScript + React, Rust, Haskell, Shell + Linux
 
 Utvecklare Okt 2024 – Mar 2024
+
 Algeno AB Göteborg, Sverige
 
-Utvecklade AI-drivna verktyg för att optimera energianvändning och temperaturreglering i hem och på arbetsplatser. | Använd teknik: TypeScript + Next.js, Python, pSQL, Docker
+- Utvecklade AI-drivna verktyg för att optimera energianvändning och temperaturreglering i hem och på arbetsplatser.
+- Använd teknik: TypeScript + Next.js, Python, pSQL, Docker
 
 Forsknings- och undervisningsassistent Sep 2023 – Mar 2025
+
 Chalmers Tekniska Högskola Göteborg, Sverige
 
-Utvärderade effekten av (i) AI-assisterade verktyg, (ii) sociala anteckningar för programmering inom högre utbildning. | Hjälpte med administrativa uppgifter och kursuppgifter och handledde studenter i kurserna: Objektorienterad programmering, C & inbyggda system, samt kravhantering och användargränssnitt. | Använd teknik: C/C++, Java, R, MATLAB
+- Utvärderade effekten av (i) AI-assisterade verktyg, (ii) sociala anteckningar för programmering inom högre utbildning.
+- Hjälpte med administrativa uppgifter och kursuppgifter och handledde studenter i kurserna: Objektorienterad programmering, C & inbyggda system, samt kravhantering och användargränssnitt.
+- Använd teknik: C/C++, Java, R, MATLAB
 
 IT Konsult & Utvecklare 2023
+
 Chalmers Teknologkonsulter AB Göteborg, Sverige
 
-Konsulting inom IT-sektorn, försäljning; deltagande i olika projekt med branschpartners. | Projektledare med ansvar för utveckling av en mobilbaserad applikation för Regionala cancercentrum i Sverige med syftet att upptäcka melanom hos patienter. | Använd teknik: TypeScript + React Native, Scala
+- Konsulting inom IT-sektorn, försäljning; deltagande i olika projekt med branschpartners.
+- Projektledare med ansvar för utveckling av en mobilbaserad applikation för Regionala cancercentrum i Sverige med syftet att upptäcka melanom hos patienter.
+- Använd teknik: TypeScript + React Native, Scala
 
-Fullstack Utvecklare 2021-2023
+Fullstack Utvecklare 2021 – 2023
+
 Klas, s.r.o. Bratislava, Slovakien
 
-Designade och utvecklade företagets webbplats och en triviaplattform för deras kunder. | Använd teknik: JavaScript + Next.js, Python, mySQL
+- Designade och utvecklade företagets webbplats och en triviaplattform för deras kunder.
+- Använd teknik: JavaScript + Next.js, Python, mySQL
 
 Färdigheter och kompetens
 
@@ -51,26 +71,37 @@ SCRUM och Agile, projektledning, operativsystem, DevOps, robotik, grafik- och pr
 
 Priser och certifikat
 
-Vinnande lag i ActInSpace Hackathon, 2022 | TOEFL iBT (akademiska engelska), 2022
+- Vinnande lag i ActInSpace Hackathon, 2022
+- TOEFL iBT (akademiska engelska), 2022
 
-CS50 Introduction to Computer Science, Harvard University, 2021 | The Duke of Edinburgh’s Award, Slovakien, 2020
+- CS50 Introduction to Computer Science, Harvard University, 2021
+- The Duke of Edinburgh’s Award, Slovakien, 2020
 
-Språk: slovakiska, engelska (native); tjeckiska, svenska (C1); tyska, nederländska (B1-B2)
+Språk: slovakiska, engelska (native); tjeckiska, svenska (C1); tyska, nederländska (B1–B2)
 
 Projekt
 
 michalspano.com/regexp 2025
 
-En interaktiv regex-parser och en interprer för POSIX regex skriven i Haskell. | Projektet innehåller en visuellt framställning av de underliggande datastrukturerna.
+- En interaktiv regex-parser och en interprer för POSIX regex skriven i Haskell.
+- Projektet innehåller en visuellt framställning av de underliggande datastrukturerna.
 
 michalspano.com/AppointDent 2024
 
-En fullstack-webbapp baserad på mikrotjänster för hantering av tandläkartider i Sverige. | Den tillhandahåller verktyg för tandläkare att organisera sina scheman och kommunicera med kunder.
+- En fullstack-webbapp baserad på mikrotjänster för hantering av tandläkartider i Sverige.
+- Den tillhandahåller verktyg för tandläkare att organisera sina scheman och kommunicera med kunder.
 
 skipgu.org/past-exams 2023 – 2026
 
+- Ett examensarkivsystem med en CI/CD-pipeline som genererar en sökbar webbplats med examensmaterial för studenter.
+
 michalspano.com/SEManager 2023
 
-En interaktiv studieplanerare för studenter i Software Engineering vid Göteborgs universitet. | Den har en omfattande översikt med all kursinformation och förkunskapskrav mellan kurser.
+- En interaktiv studieplanerare för studenter i Software Engineering vid Göteborgs universitet.
+- Den har en omfattande översikt med all kursinformation och förkunskapskrav mellan kurser.
 
-[1] Mer om projektet: https://service.tesla.com/en-US/service-mode.
+Senast uppdaterad 2026-11-18
+
+[1] https://michalspano.com/BSc-thesis.
+
+[2] Mer om projektet: https://service.tesla.com/en-US/service-mode.
